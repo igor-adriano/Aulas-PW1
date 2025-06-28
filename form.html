@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h2 style="color: darkgreen;">Formulário</h2>
+    <form action="/action_pagr.php">
+        <label for="fname">Nome:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+     <label for="senha">Senha:</label>
+    <input type="password" id="senha" name="senha"><br><br>
+    <label for="sex">Sexo:</label>
+    <input type="radio" name="sex" id="sex" value="masculino">
+    <label for="sex">Masculino</label>
+    <input type="radio" name="sex" id="sex" value="sex">
+    <label for="sex">Feminino</label><br>
+    <br>
+    <label for="film">Filmes Preferidos:</label>
+    <input type="checkbox" name="film" id="film" value="film">
+    <label for="film">Comédia</label>
+    <input type="checkbox" name="film" id="film" value="film">
+    <label for="film">Terror</label>
+    <input type="checkbox" name="film" id="film" value="film">
+    <label for="film">Ficção Científica</label><br>
+    <br>
+    <label for="cid">Cidade:</label>
+    <select name="cid" id="cid">
+        <option value="nd"></option>
+        <option value="ts">Taboão da Serra</option>
+        <option value="su">Suzano</option>
+        <option value="fv">Ferraz de Vasconcelos</option>
+        <option value="pi">Pintopolis</option>
+    </select><br>
+    <br>
+      <label for="obs">Obs:</label>
+    <textarea name="obs" id="obs" cols="30" rows="10"></textarea>
+    <label for="env"></label><br>
+    <br>
+    <input type="button" value="Imprimir">
+    <input type="button" value="Enviar">
+        </form>
+</body>
+</html>
