@@ -7,7 +7,7 @@ const clique = () => {
         alert("Alguma coluna não esá preenchida")
     }else{
         alert("Calculando...")
-        let total = numero1+numero2;
+        let total = numero1*numero2;
 
         exibir(total);
     }
@@ -18,5 +18,6 @@ const exibir = (total) => {
 
     document.getElementById("total").innerHTML = total;
 }
+
 
 
