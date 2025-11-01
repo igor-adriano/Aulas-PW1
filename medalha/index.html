@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Pódio</title>
+</head>
+<body>
+    <div class="principal">
+    <div class="bigbox">
+        <h1 class="title">Pódio</h1><br>
+        <div class="litbox">
+            <h2 class="subtitle">Digite o tempo dos competidores em segundos</h2><br>
+            <br>
+            <input type="text" class="t1" placeholder="Tempo 1"><br>
+            <br>
+            <input type="text" class="t2" placeholder="Tempo 2"><br>
+            <br>
+            <input type="text" class="t3" placeholder="Tempo 3"><br>
+            <br>
+            <button onclick="clique()" class="conver">Calcular Pódio</button><br>
+            <br>
+            <div class="medbox" style="display: none;">
+            <h2 class="subtitle">Pódio:</h2><br>
+            <h2 class="pod">1º <span class="p1"></span> segundos</h2>
+            <h2 class="pod">2º <span class="p2"></span> segundos</h2>
+            <h2 class="pod">3º <span class="p3"></span> segundos</h2>
+            <script src="JS/script.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

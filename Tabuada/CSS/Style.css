@@ -1,0 +1,70 @@
+*{
+    background-color: #FDD835;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.principal{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bigbox{
+    background-color: #FBC02D;
+    width: 50%;
+    max-width: 45rem;
+    opacity: 2;
+    padding: 1.25rem;
+    border-radius: 1.5rem;
+}
+
+.title, .subtitle{
+    background-color: #F9A825;
+    border-radius: 1.5rem;
+}
+
+#numer{
+    border: none;
+    outline: none;
+    padding: 0.625rem;
+    border-radius: 1.25rem;
+    background-color: #FFF9C4;
+    color: black;
+    font-size: 1.4rem;
+}
+
+#calc:hover{
+    cursor: pointer;
+}
+
+#calc{
+    background-color: #FDDCA9;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    border-radius: 1.4rem;
+    width: 50%;
+}
+
+.litbox{
+    background-color: #F9A825;
+}
+
+#nume{
+ background-color: #F9A825;
+ border-radius: 1.5rem;  
+}
+
+.num{
+    background-color: #F9A825;
+}
+
+.total{
+    background-color: #F9A825;
+}
